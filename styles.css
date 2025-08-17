@@ -1,0 +1,83 @@
+/* Reset some default styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f8fb;
+  color: #333;
+}
+
+/* Header styling */
+.header {
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  border-bottom: 4px solid #003366;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+}
+
+.nav a:hover {
+  border: 1px solid white;
+  background-color: #0059b3;
+}
+
+/* Intro section */
+.intro {
+  background-color: #e6f2ff;
+  padding: 40px;
+  margin: 20px;
+  border: 2px dashed #99ccff;
+}
+
+.intro h2 {
+  margin-top: 0;
+}
+
+.intro p {
+  margin-bottom: 0;
+}
+
+/* Card section */
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  gap: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 30%;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+/* Footer */
+.footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  border-top: 4px solid #003366;
+}
